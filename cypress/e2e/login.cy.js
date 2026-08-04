@@ -17,10 +17,13 @@ describe("Login", () => {
     //act
     cy.get("#username").click().type("julio.lima");
     cy.get("#senha").click().type("654321");
+    cy.screenshot("senha-incorreta");
     //cy.get("#login-section > .btn").click();
     cy.contains("button", "Entrar").click();
 
     //assert
+
     cy.get(".toast").should("have.text", "Erro no login. Tente novamente.");
+    cy.screenshot("login-falha");
   });
 });
