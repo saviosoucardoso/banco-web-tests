@@ -1,0 +1,84 @@
+{
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#FACC15",
+    "editorBracketHighlight.foreground2": "#FACC15",
+    "editorBracketHighlight.foreground3": "#FACC15",
+    "editorBracketHighlight.foreground4": "#FACC15",
+    "editorBracketHighlight.foreground5": "#FACC15",
+    "editorBracketHighlight.foreground6": "#FACC15"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "string.quoted.double.js",
+          "string.quoted.single.js",
+          "string.template.js"
+        ],
+        "settings": {
+          "foreground": "#F97316"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.double.json",
+          "string.quoted.double.json.comments"
+        ],
+        "settings": {
+          "foreground": "#22C55E"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.dictionary.begin.json",
+          "punctuation.definition.dictionary.end.json",
+          "punctuation.definition.array.begin.json",
+          "punctuation.definition.array.end.json",
+          "punctuation.support.type.property-name.begin.json",
+          "punctuation.support.type.property-name.end.json"
+        ],
+        "settings": {
+          "foreground": "#FACC15"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.parameters.begin.js",
+          "punctuation.definition.parameters.end.js",
+          "punctuation.definition.block.js",
+          "punctuation.definition.array.begin.js",
+          "punctuation.definition.array.end.js",
+          "meta.brace.round.js",
+          "meta.brace.square.js"
+        ],
+        "settings": {
+          "foreground": "#FACC15"
+        }
+      },
+      {
+        "scope": [
+          "variable.other.object.js"
+        ],
+        "settings": {
+          "foreground": "#A855F7"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.js",
+          "punctuation.accessor.js",
+          "punctuation.separator.comma.js",
+          "punctuation.terminator.statement.js",
+          "punctuation.separator.key-value.js",
+          "punctuation.definition.template-expression.begin.js",
+          "punctuation.definition.template-expression.end.js",
+          "punctuation.definition.string.begin.js",
+          "punctuation.definition.string.end.js"
+        ],
+        "settings": {
+          "foreground": "#FFFFFF"
+        }
+      }
+    ]
+  }
+}
