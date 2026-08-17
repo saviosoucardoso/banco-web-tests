@@ -1,31 +1,24 @@
 {
   "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#FACC15",
-    "editorBracketHighlight.foreground2": "#FACC15",
-    "editorBracketHighlight.foreground3": "#FACC15",
-    "editorBracketHighlight.foreground4": "#FACC15",
-    "editorBracketHighlight.foreground5": "#FACC15",
-    "editorBracketHighlight.foreground6": "#FACC15"
+    "editorBracketHighlight.foreground1": "#daed09",
+    "editorBracketHighlight.foreground2": "#daed09",
+    "editorBracketHighlight.foreground3": "#daed09",
+    "editorBracketHighlight.foreground4": "#daed09",
+    "editorBracketHighlight.foreground5": "#daed09",
+    "editorBracketHighlight.foreground6": "#daed09"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          "string.quoted.double.js",
-          "string.quoted.single.js",
-          "string.template.js"
-        ],
+        "scope": ["string.quoted.double.js", "string.quoted.single.js", "string.template.js"],
         "settings": {
           "foreground": "#F97316"
         }
       },
       {
-        "scope": [
-          "string.quoted.double.json",
-          "string.quoted.double.json.comments"
-        ],
+        "scope": ["string.quoted.double.json", "string.quoted.double.json.comments"],
         "settings": {
-          "foreground": "#22C55E"
+          "foreground": "#9087a8"
         }
       },
       {
@@ -38,7 +31,7 @@
           "punctuation.support.type.property-name.end.json"
         ],
         "settings": {
-          "foreground": "#FACC15"
+          "foreground": "#FFFFFF"
         }
       },
       {
@@ -52,15 +45,13 @@
           "meta.brace.square.js"
         ],
         "settings": {
-          "foreground": "#FACC15"
+          "foreground": "#daed09"
         }
       },
       {
-        "scope": [
-          "variable.other.object.js"
-        ],
+        "scope": ["variable.other.object.js"],
         "settings": {
-          "foreground": "#A855F7"
+          "foreground": "#fa15db"
         }
       },
       {

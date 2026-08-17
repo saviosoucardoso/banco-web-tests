@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "test:headed": "cypress run --headed",
+    "test:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/saviosoucardoso/banco-web-tests#readme",
   "devDependencies": {
-    "cypress": "^15.19.0"
+    "cypress": "^15.19.0",
+    "cypress-mochawesome-reporter": "^5.0.0"
   }
 }

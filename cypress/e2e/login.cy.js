@@ -1,6 +1,6 @@
 describe("Login", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:4000");
+    cy.visit("/");
   });
   it("Login com dados válidos deve permitir acesso ao sistema", () => {
     //act
@@ -27,7 +27,8 @@ describe("Login", () => {
 
     //assert
 
-    cy.get(".toast").should("have.text", "Erro no login. Tente novamente.");
+    //cy.get(".toast").should("have.text", "Erro no login. Tente novamente.");
+    cy.verificarMensagemNoToast("Erro no login. Tente novamente.");
     cy.screenshot("login-falha");
   });
 });
